@@ -1,0 +1,247 @@
+body {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    margin-left: 19px;
+}
+
+.header-text {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 18px;
+    color: #655CAC;
+}
+
+main {
+    background-color: #7360F2;
+    color: #FFFFFF;
+}
+
+.main-text1 {
+    display: block;
+    padding-top: 21px;
+    width: 224px;
+    font-size: 12px;
+    line-height: 14.4px;
+    margin-left: 48px;
+}
+
+.main-text1 span {
+    font-weight: 700;
+}
+
+hr {
+    width: 280px;
+    background-color:white;
+    height: 1px;
+    opacity: 0.1;
+    margin-top: 18px;
+}
+
+.main-text2 {
+    margin-top: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 228px;
+    margin-left: 46px;
+}
+
+.selector {
+    position:relative;
+    display: inline-block;
+}
+
+.part1 {
+    padding-bottom: 33px;
+}
+
+select {
+    width: 280px;
+    height: 40px;
+    border-radius: 100px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #655CAC;
+    outline: none;
+    border: none;
+    background: url("img/select-arrow.svg") no-repeat 95% 50% white;
+    -webkit-appearance: none;
+}
+
+.main-text3 {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 255px;
+    margin-left: 32px;
+}
+
+.main-text4 {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 254px;
+    margin-left: 33px;
+}
+
+.btn {
+    width: 280px;
+    height: 50px;
+    background-color: #7AB540;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.btn:hover {
+    background-color: #6EBF31;
+}
+
+.btn p {
+    margin: auto;
+    color: white;
+}
+
+.part2 {
+    height: 400px;
+    background-color: #EFEFEF;
+    padding-top: 21px;
+    padding-left: 20px;
+}
+
+.msg {
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 379px;
+    position: relative;
+}
+
+.msg-header {
+    margin-top: -10px;
+    height: 49px;
+    position: relative;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.msg-header .name {
+    display: block;
+    color: black;
+    margin-top: 11px;
+    padding-top: 11px;
+    margin-bottom: 1px;
+}
+
+.msg-header .online {
+    color: #A9A9A9;
+    font-size: 10px;
+    margin-top: 1px;
+}
+
+.share{
+    position: absolute;
+    width:16px;
+    height:17.2px;
+    background: url("img/Vector.svg") no-repeat white;
+    right: 15px;
+    top: 15px;
+}
+
+.msg-main {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.date {
+    color: #A9A9A9;
+    font-size: 11px;
+    margin-top: 19px;
+}
+
+.msg-user{
+    position:relative;
+    margin-bottom: 29px;
+}
+
+.msg-text {
+    width: 220px;
+    height: 81px;
+    background-color: #EFEFEF;
+    margin-left: 43px;
+    border-radius: 0 10px 10px 10px;
+}
+
+.msg-text .name {
+    font-weight: 500;
+    font-size: 12px;
+    color: #6D5DDE;
+    text-align: left;
+    padding-top: 7px;
+    margin-left: 11px;
+    width: 87px;
+    height: 14px;
+}
+
+.check, .check1 {
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.check1 {
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.msg-message {
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    margin-left: 11px;
+    margin-top: 6px;
+    width: 150px;
+    background-image: url("img/noto_party-popper.svg");
+    background-repeat: no-repeat;
+    background-position: 59px 13px;
+}
+
+.time {
+    position: absolute;
+    font-size: 11px;
+    color: #A9A9A9;
+    bottom: 0px;
+    right: 25px;
+}
+
+.foto {
+    width: 27px;
+    height: 27px;
+    border-radius: 10px;
+    position: absolute;
+    background-image: url("img/Rectangle2.svg");
+    top: 0;
+    left: 10px;
+}
+
+.msg-footer p {
+    font-size: 14px;
+    color: #A9A9A9;
+}
